@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Web Site</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Menú -->
+    <nav class="topheader">
+      <a href="" class="logo">
+        <img
+          width="150"
+          src="imagen/db9cd66116e58955cf898fbecb3d7963.jpg"
+          alt="Logo"
+        />
+      </a>
+
+      <ul class="Menu-Horizontal">
+        <li><a href="">Popular</a></li>
+        <li><a href="">Centro de Ofertas</a></li>
+        <li><a href="">Visualizado</a></li>
+        <li><a href="">Recientemente</a></li>
+
+        <li>
+          <a href="">Moda</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Hombres</a></li>
+            <li><a href="">Mujeres</a></li>
+            <li><a href="">Ofertas</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="">Más</a>
+          <ul class="Menu-Vertical">
+            <li><a href="">Cuenta</a></li>
+            <li><a href="">Tarjetas</a></li>
+            <li><a href="">Servicios Adicionales</a></li>
+            <li><a href="">Ayuda</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Sección Moda -->
+    <section class="seccion-moda">
+      <div class="div-gral-moda">
+        <div class="div-texto-moda">
+          <h2>Sección Moda</h2>
+          <p>
+            De esta manera, es frecuente que se empleen de manera habitual dos
+            expresiones dentro del ámbito más coloquial. Así, por un lado, nos
+            topamos con la locución verbal «estar de moda», que se emplea para
+            decir que un tipo de ropa, de peinado o de forma de actuar se ha
+            impuesto en ese momento y se estila por mucha gente. Por otro lado,
+            frente a aquella locución se encontraría otra: «pasar de moda». Con
+            ella se intenta expresar todo lo contrario. Es decir, se transmite
+            que cualquier prenda, un tipo de complemento o incluso un maquillaje
+            o peinado ya han quedado totalmente obsoletos.
+          </p>
+        </div>
+        <div class="div-moda-img">
+          <img
+            width="500"
+            src="imagen/pexels-godisable-jacob-226636-794064.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección Popular -->
+    <section class="seccion-popular">
+      <div class="div-gral-popular">
+        <div class="div-banca-popular"></div>
+        <div class="div-popular-img"></div>
+      </div>
+    </section>
+    <!--seccion promocion-->
+    <section class="seccion-promocion">
+      <div class="div-gral-promocion">
+        <div class="div-texto-promocion">
+          <h2>Seccion Promocion</h2>
+          <p>
+            La promoción de la moda es un campo especializado que usa tácticas creativas y de marketing para aumentar la visibilidad, el interés y las ventas de productos como ropa, accesorios y cosméticos. Se enfoca en conectar emocionalmente con los consumidores, crear una identidad de marca y destacar frente a la competencia a través de estrategias como la publicidad en redes sociales, eventos y colaboraciones con influencers. 
+          </p>
+        </div>
+        <div class="div-popular-video"></div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ZOm3FmD8qRo?si=vgt0Wc2Q8Ce7eMYw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+      </div>
+    </section>
+    <section class="seccion-moda">
+      <div class="div-gral-contactanos">
+        <div class="div-texto-contactanos">
+          <h2>Sección Contactanos</h2>
+          <p>
+            La calidad de la ropa es fundamental para su durabilidad, confort y seguridad, además de que reduce el impacto ambiental al disminuir los desechos textiles. Para las empresas, la calidad es crucial para construir una sólida reputación de marca, fidelizar a los clientes y diferenciarse de la competencia, lo que a menudo se traduce en precios más altos y mayores beneficios
+          </p>
+        </div>
+        <div class="div-contactanos-img">
+          <img
+            width="500"
+            src="imagen/QIMA_inspector_-_performing_inspections_on_garments.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <!--Seccion lista-->
+      <section class="seccion-formulario">
+        <div class="div-cont-formulario">
+          <h2>Cuenta</h2>
+          <p>Complete todos los Campos</p>
+          <form class="formulario">
+            <!--input/label-->
+            <div class="campo">
+              <label for="nombre">Nombres Completos</label>
+              <input type="text" id="nombre" name="nambre" placeholder="Ingrese sus nombres"></input>
+            </div>
+            <!--Lista Desplegable-->
+            <div class="campo">
+              <label for="nombre">Pais:</label>
+              <select id="pais" name="pais">
+                <option value="">Seleccione un pais</option>
+                <option value="peru">Perú</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Brazil">Brazil</option>
+              </select>
+            </div>
+            <!--checkbox-->
+            <div class="campo">
+              <label>Intereses:</label>
+                <ul class="lista-checkbox">
+                  <li><label><input type="checkbox" name="Camisas" value="a">Camisas</label></li>
+                  <li><label><input type="checkbox" name="Pantalones" value="b">Pantalones</label></li>
+                  <li><label><input type="checkbox" name="Gorras" value="c">Gorras</label></li>
+                  <li><label><input type="checkbox" name="Zapatos" value="d">Zapatos</label></li>
+                </ul>
+            </div>
+            <!--radio-->
+            <div class="campo">
+              <label>Sexo:</label>
+              <ul class="lista-radio">
+                <li><label><input type="radio" name="Sexo" value="m">Masculino</label></li>
+                <li><label><input type="radio" name="Sexo" value="f">Femenino</label></li>
+              </ul>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+        <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Logo y nombre de sitio -->
+          <div class="footer-brand">
+            <img
+              src="Imagenes/senati-logo.png"
+              alt="Logo"
+              class="footer-logo"
+            />
+            <p>ABYSS
+            </p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+
+          <!-- Enlaces legales -->
+          <div class="footer-links">
+            <h4>Legal</h4>
+            <a href="/Documentos/3.politica-privacidad.pdf"
+              >Política de Privacidad</a
+            >
+            <!-- Dentro de href llama a un documento pdf con la poltica-->
+            <a href="#">Términos y Condiciones</a>
+            <!-- Dentro de href llama a un documento pdf con los terminos y condiciones-->
+            <a href="/Documentos/LeyProteccionDatos.pdf">Protección de Datos</a>
+          </div>
+
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145812.png"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145807.png"
+                alt="LinkedIn"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145806.png"
+                alt="Twitter"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
+

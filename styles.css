@@ -1,0 +1,241 @@
+/*MENU*/
+
+.topheader {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.Menu-Horizontal {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.Menu-Horizontal li a {
+  text-decoration: none;
+  color: blue;
+  display: block;
+  padding: 15px 20px;
+}
+.Menu-Vertical {
+  display: none;
+  list-style: none;
+  width: 200px;
+  position: absolute;
+  padding: 0;
+}
+.Menu-Horizontal li a:hover {
+  color: red;
+}
+.Menu-Horizontal li:hover .Menu-Vertical {
+  display: block;
+}
+
+/*SECCION MODA*/
+.seccion-moda {
+  padding: 200px 20px;
+  background-color: skyblue;
+}
+.div-gral-moda {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.div-texto-moda {
+  color: aquamarine;
+  margin-bottom: 15px;
+}
+.div-texto-moda {
+  flex: 1;
+}
+.div-texto-moda {
+  color: black;
+  line-height: 1.6;
+}
+
+.div-gral-promocion {
+display:flex;
+justify-content: : space-between;
+align-items:justify;
+max-width:1200px;
+margin:0 auto;
+gap:40 px;
+}
+
+.div-popular-video {
+}
+
+/*seccion calidad*/
+.seccion-contactanos {
+  padding: 200px 20px;
+  background-color: skyblue;
+}
+.div-gral-contactanos {
+  display: flex;
+  justify-content: space-between;
+  align-items: justify;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.div-texto-contactanos {
+  color: aquamarine;
+  margin-bottom: 15px;
+}
+.div-texto-contactanos {
+  flex: 1;
+}
+.div-texto-contactanos {
+  color: black;
+  line-height: 1.6;
+}
+/*SECCION FORMULARIO*/
+
+.seccion-formulario{
+  background-color: orange;
+  padding: 40px;
+  border:3px;
+  display:flex;
+  justify-content:center;
+  margin-bottom:40px;
+
+}
+.div-cont-formulario{
+background-color: skyblue;
+padding: 30px;
+border: 2px solid brown;
+border-radius:10px;
+width:100%;
+max-width: 500px;
+}
+
+.campo{
+    background-color: pink;
+    padding: 15px;
+    border: 1px solid brown;
+    border-radius:5px;
+    margin-bottom:15px;
+
+}
+.formulario label{
+
+  display:block;
+  font-weight:600;
+  margin-ottom:8px;
+  color: black;
+}
+.formulario input[type="text"],.formulario select{
+width: 100%;
+padding:6px;
+border:1px solid black;
+background-color: white;
+box-sizing:border-box;
+
+}
+.lista-checkbox, .lista-radio{
+list-style:none;
+padding:10px;
+margin:0;
+border:1px;
+background-color:white;
+}
+.formulario button{
+
+background-color: antiquewhite;
+color:black;
+padding: 10px 20px;
+border-radius:5px;
+cursor:pointer;
+display:flex;
+justify-content:center;
+display:block;
+margin: auto;
+}
+
+
+/* Footer general */
+.footer {
+  background-color: #222; /* Fondo oscuro para contraste */
+  color: white;
+  padding: 2rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Contenedor flexible para 3 columnas */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 2rem;
+}
+
+/* Marca o logotipo */
+.footer-brand {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  width: 60px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+/* Enlaces legales */
+.footer-links {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-links a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin: 0.3rem 0;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+/* Redes sociales con íconos */
+.footer-social {
+  flex: 1;
+  min-width: 200px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-social img {
+    margin-bottom: 0.5rem;
+  }
+}
